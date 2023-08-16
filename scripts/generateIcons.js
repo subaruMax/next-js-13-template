@@ -5,8 +5,8 @@
  * In package.json added lifecycle hooks for automatically running this script.
  */
 
-const path = require('path');
 const fs = require('fs');
+const path = require('path');
 
 const ICONS_SUB_PATH = '../public';
 const ICONS_DIR_NAME = 'icons';

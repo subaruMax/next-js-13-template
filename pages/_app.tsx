@@ -1,4 +1,4 @@
-import type { AppProps, Inter } from 'next/app';
+import type { AppProps } from 'next/app';
 
 import 'styles/index.scss';
 
