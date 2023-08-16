@@ -1,3 +1,5 @@
+# This is a Lefthook config file, it is used to trigger pre-commit hooks
+
 # EXAMPLE USAGE:
 #
 #   Refer for explanation to following link:
