@@ -1,0 +1,36 @@
+@use 'typography';
+@use 'reset';
+@use 'mixins';
+@use 'colors';
+@use 'media';
+
+:root {
+  --font-roboto: roboto, monospace;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  color: inherit;
+  font-family: inherit;
+  font-size: inherit;
+}
+
+html {
+  font-family: var(--font-roboto);
+  font-size: 16px;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+html,
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  max-width: 100vw;
+  width: 100%;
+  min-height: 100vh;
+}

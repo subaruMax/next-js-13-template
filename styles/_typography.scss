@@ -1,0 +1,11 @@
+@mixin heading1 {
+  font-family: var(--font-roboto);
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+%heading1 {
+  @include heading1;
+}
