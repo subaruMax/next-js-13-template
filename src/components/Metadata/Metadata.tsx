@@ -1,6 +1,5 @@
+import { META_TAGS_DEFAULT_CONFIG } from '@app/constants/metadata';
 import Head from 'next/head';
-
-import { META_TAGS_DEFAULT_CONFIG } from 'constants/metadata';
 
 export interface MetadataProps {
   twitterCardType?: string;

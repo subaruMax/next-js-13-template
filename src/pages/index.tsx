@@ -1,5 +1,5 @@
-import MainLayout from 'components/MainLayout';
-import { Button } from 'ui-kit';
+import MainLayout from '@app/components/MainLayout';
+import { Button } from '@app/ui-kit';
 
 const Home = () => {
   return (

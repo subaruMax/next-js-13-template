@@ -122,6 +122,13 @@
           ["type"],
           ["parent", "sibling", "index"]
         ],
+        "pathGroups": [
+          {
+            "pattern": "@app/**",
+            "group": "internal",
+            "position": "after"
+          }
+        ],
         "newlines-between": "always",
         "alphabetize": {
           "order": "asc" /* sort in ascending order. Options: ['ignore', 'asc', 'desc'] */,
