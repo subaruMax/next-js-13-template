@@ -1,10 +1,11 @@
-import MainLayout from '@components/MainLayout';
+import MainLayout from 'components/MainLayout';
+import { Button } from 'ui-kit';
 
 const Home = () => {
   return (
-    <>
-      <MainLayout>Next.js 13 template by Maksym Khaiuk</MainLayout>
-    </>
+    <MainLayout>
+      <Button>Hey</Button>Next.js 13 template by Maksym Khaiuk{' '}
+    </MainLayout>
   );
 };
 

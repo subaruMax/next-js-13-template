@@ -16,10 +16,7 @@
     "jsx": "preserve",
     "incremental": false,
     "paths": {
-      "@app/*": ["./*"],
-      "@styles/*": ["./styles/*"],
-      "@components/*": ["./components/*"],
-      "@ui-kit": ["./ui-kit"]
+      "@styles/*": ["./styles/*"]
     }
   },
   "include": ["next-env.d.ts", "general.d.ts", "**/*.ts", "**/*.tsx"],
