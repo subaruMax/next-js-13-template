@@ -1,7 +1,8 @@
-import { Icon, IconName } from '@app/ui-kit';
 import cn from 'classnames';
 import Link from 'next/link';
 import React, { useMemo } from 'react';
+
+import { Icon, IconName } from '@app/ui-kit';
 
 import s from './Button.module.scss';
 

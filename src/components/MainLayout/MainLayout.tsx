@@ -1,9 +1,10 @@
+import cn from 'classnames';
+import React from 'react';
+
 import Footer from '@app/components/Footer';
 import Header from '@app/components/Header';
 import Metadata, { MetadataProps } from '@app/components/Metadata';
 import FONTS from '@app/constants/fonts';
-import cn from 'classnames';
-import React from 'react';
 
 import s from './MainLayout.module.scss';
 
